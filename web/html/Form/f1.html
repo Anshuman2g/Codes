@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Event Registeration</h2>
+    <form>
+        <fieldset>
+           <label for="n1">Name :</label>
+           <input type="text" name="name" id="n1">
+           <br><br>
+           <label for="e1">Email:</label>     
+           <input type="email" id="e1">
+           <br><br>
+           <label for="p1">Phone:</label>
+           <input type="tel" id="p1" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="000-000-0000"/>
+           <br><br>
+<!----------------------------------------------------------------------------------------------- --> 
+           <label for="Occupation">Occupation : </label>
+           <select name="Occupation" id="o1">
+            <option value="Doctor">Doctor</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Other">Other</option>
+           </select>
+<!----------------------------------------------------------------------------------------------- -->
+       <br>
+       <fieldset>
+        <legend>topics Of Interest</legend>
+        <label for="check1">HTML</label>
+        <input type="checkbox" id="check1" name="checkbox">
+        <br>
+        <label for="check2">CSS</label>
+        <input type="checkbox" id="check2" name="checkbox2">
+        <br>
+        <label for="check4">JavaScript</label>
+        <input type="checkbox" id="check4" name="checkbox3">
+       </fieldset>
+<!-- -------------------------------------------------------------------------------------------------------------           -->
+           <br>
+
+           <label for="t3">comments</label> 
+           <br>
+           <textarea name="textarea" id="t3"></textarea> 
+           <br>
+           <input type="submit" value="register">
+<!-- -------------------------------------------------------------------------------------------------------------------            -->
+        </fieldset>
+    </form>
+</body>
+</html>
