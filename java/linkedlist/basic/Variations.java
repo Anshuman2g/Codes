@@ -1,5 +1,3 @@
-package basic;
-import java.util.*;
 public class Variations {
     public static class Node{
         int data;
@@ -19,11 +17,28 @@ public class Variations {
          b.next = c;
          c.next = d;
          d.next = e;
-        //  recursive(a);
-        //  System.out.println();
-        //  reverse(a);
-        System.out.println(length(a));
+         insertAtEnd(a, 99);
+         display(a);
     }
+
+    public static void insertAtEnd(Node head,int val ){
+      Node temp = new Node(val);
+      Node t = head;
+      while(t.next != null){
+         t = t.next;
+      }
+      t.next=temp;
+    }
+
+    
+     public static void display(Node head){
+      Node temp = head;
+      while(temp != null){
+        System.out.println(temp.data);
+        temp= temp.next;
+      }
+     }
+
     public static void recursive(Node head){
            Node temp= head;
            if(temp == null) {

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .class1{
+        /* width: 400px;
+        height: 400px; */
+        background-color: lightblue ;
+        display: flex;
+     }
+     .boxx{
+        margin: 10px;
+        padding: 10px;
+     }
+     #box1{
+        background-color: chocolate;
+        width: 200px;
+        height: 200px;
+        border: solid black 1px;
+     }
+     #box2{
+        background-color: rgb(15, 11, 197);
+        width: 200px;
+        height: 200px;
+        border: solid black 1px;
+     }
+     #box3{
+        background-color: rgb(193, 23, 96);
+        width: 200px;
+        height: 200px;
+        border: solid black 1px;
+     }
+     #box4{
+        background-color: rgb(152, 152, 11);
+        width: 200px;
+        height: 200px;
+        border: solid black 1px;
+     }
+
+     @media (min-width:640px) {
+       .class1{
+          flex-direction:row;
+       }
+     }
+    @media (max-width:600px) {
+         .class1{
+            flex-direction:column ;
+         }
+    }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <div class="boxx" id="box1">this is box 1</div>
+        <div class="boxx"  id="box2">this is box 2</div>
+        <div class="boxx" id="box3">this is box 3</div>
+        <div class="boxx" id="box4">this is box 4</div>
+    </div>
+</body>
+</html>
