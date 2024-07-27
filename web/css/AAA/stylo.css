@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.smallcontainer{
+    border: solid rgb(13, 250, 53) 4px;
+    background-color: black;
+    height:400px;
+    width: 400px;
+    position: relative;
+    transition: all 4s ease-out 0s;
+} 
+
+.smallcontainer:hover{
+    transform: scaleX(1.8);
+}
+
+

@@ -1,0 +1,30 @@
+.bigcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+     transition: all 4s ease-in-out 0s;
+}
+
+.container:hover{
+    /* transform: rotate(-360deg); */
+    /* transform: scale(2); */
+    /* transform: skew(45deg); */
+    /* transform: translate(-400px,-400px); */
+    /* transform: scale(0.5) translate(100%, 100%); */
+    transform: scaleX(2);
+}
+p{
+    font-size: 30px;
+}
