@@ -47,7 +47,7 @@ public class rev {
             else{
 
             }
-            for(int i=1;i<idx;i++){
+            for(int i=1;i<idx-1;i++){
                 t=t.next;
             }
             temp.next=t.next;
@@ -110,9 +110,9 @@ public class rev {
           ll.insertAtEnd(100);
           ll.insertAtEnd(101);
           ll.insertAtIdx(4,-1);
-          ll.insertAtEndHeadNode(999);
-          System.out.println( "element at given index is :" + ll.getElement(3));
-          ll.deleteIdx(1);
+        //   ll.insertAtEndHeadNode(999);
+        //   System.out.println( "element at given index is :" + ll.getElement(3));
+        //   ll.deleteIdx(1);
           ll.display();
     }
 }

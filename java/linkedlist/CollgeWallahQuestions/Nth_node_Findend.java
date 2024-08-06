@@ -14,7 +14,7 @@ public class Nth_node_Findend {
         //     }
         //     return temp2.next;
         // }
-
+// --------------------------------------------------------------------------------------------------------------------
         public static Node Nnode(Node head , int idx){
           Node slow = head;
           Node fast = head;

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.headerContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+.CardMainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   justify-content: center;            
+    /* align-items: center; */
+    /* border: 1px solid black; */
+}
+.eightCardContainer{
+    display: flex;
+    width: 80%;
+    height: 70%;
+
+    flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+}
+.firstCardContainer{
+    width: 250px;
+    height: 350px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   box-shadow: 1px 1px 3px black;
+   /* justify-content: center; */
+   /* align-items: center; */
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.firstCardContainer img{
+    width: 100%; */
+    /* height: 70%;
+    /* transition: all 1s linear 0s; */
+    border-radius: 10px;
+}
+.firstCardContainer img:hover{
+    transform: scale(1.4);
+}
+.leftbox .avatar{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+}
+.leftbox{
+    display: flex;
+    gap: 10px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.unorderlist{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.rightbox{
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 5px;
+}

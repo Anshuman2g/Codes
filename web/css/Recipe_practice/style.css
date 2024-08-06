@@ -1,0 +1,97 @@
+.MainContainer{
+    height: 100vh;
+    width: 100vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navContainer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,12,9,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    min-height: 80px;
+  
+}
+
+#navlist{
+    list-style: none;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 10px;
+   margin-right: 40px;
+}
+
+#navlist h2{
+    color: aliceblue;
+    font-size: xx-large;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#multiplehyerlink{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.primaryContentBox{
+    width: 80%;
+    box-shadow: 1px 1px 34px black;
+    margin: auto;
+}
+
+
+
+.item1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.leftbox{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rightbox img{
+    border-radius: 20px;
+    box-shadow: 1px 2px 15px black;
+}
+
+
+.rightbox{
+    transition: all 2s linear 0s;
+}
+
+.rightbox:hover{
+  transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+.footcontainer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,12,9,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    min-height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footcontainer p{
+    font-size: 2rem;
+    color: white;
+}

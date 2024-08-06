@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-rows:repeat(5,1fr);
+            grid-template-columns: repeat(4,1fr);
+            gap: 30px;
+        }
+        .box{
+            border: 1px solid black;
+            height: 100%;
+            width: 100%;
+            background-color: darkkhaki;
+        }
+        .a1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .a7{
+            background-color: black;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .a8{
+            background-color: black;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .a11{
+            grid-column-start: 1;
+            grid-column-end: 5;                                  
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    </style>
+                                      <!-- PENDINGGGGGGGGGGGGGGGG -->
+</head>
+<body>
+    <div class="container">
+        <div class="box a1"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box a7"></div>
+        <div class="box a8"></div>
+        <div class="box hello"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box a11"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
